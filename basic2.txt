@@ -1,0 +1,854 @@
+Assignment operator:
+ equal operator
+1.#include<stdio.h>
+int x=199;
+printf(%d x);
+return 0;
+The result will be 199.
+
+2.#include<stdio.h>
+int x=20;
+int x=20;
+int x=2;
+printf(%d x);
+return 0;
+The result will be 199.
+points:we can't reassign and redeclare the value.
+
+
+addition equal operator
+1.#include<stdio.h>
+int x=199;
+int x+=199;
+printf(%d x);
+return 0;
+The result will be 398.
+
+2.#include<stdio.h>
+int x=199;
+int x+=578;
+printf(%d x);
+return 0;
+The result will be 777.
+points:we can reassign and redeclare the value.
+
+subtraction equal operator
+1.#include<stdio.h>
+int x=199;
+int x-=199;
+printf(%d x);
+return 0;
+The result will be 0.
+
+2.#include<stdio.h>
+int x=578;
+int x-=199;
+printf(%d x);
+return 0;
+The result will be 379.
+points:we can reassign and redeclare the value.
+
+multiplication equal operator
+1.#include<stdio.h>
+int x=199;
+int x*=199;
+printf(%d x);
+return 0;
+The result will be 39601.
+
+2.#include<stdio.h>
+int x=578;
+int x*=199;
+printf(%d x);
+return 0;
+The result will be 115022.
+points:we can reassign and redeclare the value.
+
+Division equal operator
+1.#include<stdio.h>
+int x=199;
+int x/=199;
+printf(%d x);
+return 0;
+The result will be 1.
+
+2.#include<stdio.h>
+int x=578;
+int x/=2;
+printf(%d x);
+return 0;
+The result will be 289.
+points:we can reassign and redeclare the value.
+
+Modulus equal operator
+1.#include<stdio.h>
+int x=199;
+int x%=19;
+printf(%d x);
+return 0;
+The result will be 9.
+
+2.#include<stdio.h>
+int x=578;
+int x%=25;
+printf(%d x);
+return 0;
+The result will be 3.
+modulus having remainder which we solve the problem.
+points:we can reassign and redeclare the value.
+
+
+Modulus equal operator
+1.#include<stdio.h>
+int x=199;
+int x%=19;
+printf(%d x);
+return 0;
+The result will be 9.
+
+2.#include<stdio.h>
+int x=578;
+int x%=25;
+printf(%d x);
+return 0;
+The result will be 3.
+modulus having remainder which solve the problem.
+points:we can reassign and redeclare the value.
+
+
+
+
+comparision operator:
+ equal operator
+1.#include<stdio.h>
+int x=199;
+int y=199;
+printf(%d x==y);
+return 0;
+The result will be 1 means true.
+
+2.#include<stdio.h>
+int x=20;
+int y=20;
+printf(%d x==y);
+return 0;
+The result will be 1 means true.
+points:we can't reassign and redeclare the value.
+
+ not equal operator
+1.#include<stdio.h>
+int x=199;
+int y=19;
+printf(%d x!=y);
+return 0;
+The result will be 0 means false.
+
+2.#include<stdio.h>
+int x=20;
+int y=0;
+printf(%d x!=y);
+return 0;
+The result will be 0 means false.
+points:we can't reassign and redeclare the value.
+
+ Greater than operator
+1.#include<stdio.h>
+int x=199;
+int y=19;
+printf(%d x>y);
+return 0;
+The result will be  1 means true.
+
+2.#include<stdio.h>
+int x=20;
+int y=0;
+printf(%d x>y);
+return 0;
+The result will be  1 means true.
+points:we can't reassign and redeclare the value.
+
+Lesser than operator
+1.#include<stdio.h>
+int x=198;
+int y=199;
+printf(%d x<y);
+return 0;
+The result will be  1 means true.
+
+2.#include<stdio.h>
+int x=20;
+int y=200;
+printf(%d x<y);
+return 0;
+The result will be  1 means true.
+points:we can't reassign and redeclare the value.
+
+ Greater than or equal operator
+1.#include<stdio.h>
+int x=199;
+int y=19;
+printf(%d x>=y);
+return 0;
+The result will be  1 means true.
+
+2.#include<stdio.h>
+int x=20;
+int y=0;
+printf(%d x<y);
+return 0;
+The result will be  0 means false.
+points:we can't reassign and redeclare the value.
+
+Lesser than or equal operator
+1.#include<stdio.h>
+int x=198;
+int y=199;
+printf(%d x<=y);
+return 0;
+The result will be  1 means true.
+
+2.#include<stdio.h>
+int x=20;
+int y=0;
+printf(%d x<=y);
+return 0;
+The result will be  0 means false.
+points:we can't reassign and redeclare the value.
+
+
+
+Logical operator:
+AND AND operator:
+1.#include<stdio.h>
+int x=198;
+int y=199;
+printf(%d, x>198 && x<200);
+return 0;
+The result will be  1 means true.
+
+2.#include<stdio.h>
+int x=199;
+int y=55;
+printf(%d, x>198 && x<189);
+return 0;
+The result will be  0 means false.
+points:we can't reassign and redeclare the value.
+
+Or operator:
+1.#include<stdio.h>
+int x=199;
+int y=55;
+printf(%d, x>198 || x<197);
+return 0;
+The result will be  1 means true because condition is true.
+
+2.#include<stdio.h>
+int x=189;
+int y=55;
+printf(%d, x>198 ||x<186);
+return 0;
+The result will be  0 means false because both statement is false.
+points:we can't reassign and redeclare the value.
+
+not operator:
+1.#include<stdio.h>
+int x=199;
+int y=55;
+printf(%d, !(x>198 && x<197));
+return 0;
+The result will be  0 means false because not is reverse the value.
+
+2.#include<stdio.h>
+int x=189;
+int y=55;
+printf(%d, !(x>198 &&x<186));
+return 0;
+The result will be  1 means true because not is reverse the value.
+points:we can't reassign and redeclare the value.
+
+                                                                  BOOLEANS
+1.#include<stdio.h>
+#include<stdbool.h>
+int x=199;
+int y=55;
+printf(%d, (x>55));
+return 0;
+The result will be  1 means true  because 199 is greater than 55.
+
+2.#include<stdio.h>
+#include<stdbool.h>
+int main(){
+printf("%d\n", 10==10);
+printf("%d\n", 10==15);
+printf("%d\n", 5==55);
+return 0;
+}
+The result will be  1,0,0.
+
+
+
+Real life examples:
+
+1.#include<stdio.h>
+int main(){
+int my Age=21;
+int votaingAge=18;
+if(myAge>=votingAge){
+printf("Old enough to vote");
+}
+else{
+printf("Not Old enough to vote");
+}
+return 0;
+}
+The result will be Old enough to vote.
+
+2.#include<stdio.h>
+int main(){
+int my Age=21;
+int votaingAge=18;
+Printf("%d",myAge<=votingAge);
+
+return 0;
+}
+The result will be 1 means true.
+
+                                                                         IF VALUE
+1.#include<stdio.h>
+int x=199;
+int y=55;
+if (x>y){
+printf("%d", (x is greater than y));
+return 0;
+The result will be x is greater than y.
+
+                                                                         Else value
+1.#include<stdio.h>
+int Time=70;
+if (Time>50){
+printf("Good day");
+}
+else{
+printf("Good evening");
+return 0;
+The result will be Good day.
+
+2.#include<stdio.h>
+int Time=70;
+if (Time<50){
+printf("Good day");
+}
+else{
+printf("Good evening");
+return 0;
+The result will be Good evening.
+    
+                                                                           If Else value
+
+1.#include<stdio.h>
+int Time=70;
+if (Time<50){
+printf("Good morning");
+}
+else if(Time<46){
+printf("Good day");
+}
+else{
+printf("Good evening");
+return 0;
+The result will be Good evening.
+
+2.#include<stdio.h>
+int Time=70;
+if (Time<50){
+printf("Good morning");
+}
+else if(Time<75){
+printf("Good day");
+}
+else{
+printf("Good evening");
+return 0;
+The result will be Good day.
+                                                                        short hand exampes
+1.#include<stdio.h>
+int Time=70;
+(Time<50)?printf("Good morning"):
+printf("Good day");
+return 0;
+The result will be Good day.
+
+                                                                         real life example
+2.#include<stdio.h>
+int doorcode=70;
+if (doorcode==70){
+printf("Correct code\n The door is open");
+}
+else{
+printf("InCorrect code\n The door is closed");
+return 0;
+The result will be correct code
+The door is open.
+
+                                                                            Switch
+1.#include<stdio.h>
+int main(){
+int day=7;
+switch(day){
+case1:
+printf("sunday");
+break;
+case2:
+printf("Monday");
+break;
+case3:
+printf("Tuesday");
+break;
+case4:
+printf("Wednesday");
+break;
+case5:
+printf("Thursday");
+break;
+case6:
+printf("Friday");
+break;
+case7:
+printf("Saturday");
+break;
+}
+return 0;
+}
+The result will be saturday.
+
+2.#include<stdio.h>
+int main(){
+int day=9;
+switch(day){
+case1:
+printf("sunday");
+break;
+case2:
+printf("Monday");
+break;
+case3:
+printf("Tuesday");
+break;
+case4:
+printf("Wednesday");
+break;
+case5:
+printf("Thursday");
+break;
+case6:
+printf("Friday");
+break;
+case7:
+printf("Saturday");
+break;
+default:
+printf("This is not related to week");
+}
+return 0;
+}
+The result will be This is not related to week.
+                                                                        While
+
+2.#include<stdio.h>
+int main(){
+int day=0;
+while(i<5);
+printf("%d\n",i);
+i++
+}
+
+return 0;
+}
+The result will be 
+0
+1
+2
+3
+4 
+                                                                        Do while loop
+1.#include<stdio.h>
+int main(){
+int day=0;
+do{
+printf("%d\n",i);
+i++
+}
+while(i<5);
+return 0;
+}
+The result will be 
+0
+1
+2
+3
+4 
+1.#include<stdio.h>
+int main(){
+int day=0;
+do{
+printf("%d\n",i);
+i--
+}
+while(i<5);
+return 0;
+}
+The result will be 
+4
+3
+2
+1
+0
+                                                                   Real life example
+1.#include<stdio.h>
+int main(){
+int countdown=3;
+while(countdown>0);
+printf("%d\n",countdown);
+countdown--
+}
+printf("Happy New Year!!\n");
+return 0;
+}
+The result will be 
+3
+2
+1
+Happy New Year!!
+
+2.#include<stdio.h>
+int main(){
+int dice=1;
+while(dice<=6);{
+printf("Hello India\n");{
+}else{
+printf("Happy New Year!!\n");
+return 0;
+}
+The result will be 
+Hello India
+Hello India
+Hello India
+Hello India
+Hello India
+Happy New Year!!
+
+2.#include<stdio.h>
+int main(){
+int dice=1;
+while(dice<=6);{
+printf("Hello India\n");{
+}else{
+printf("Happy New Year!!\n");
+return 0;
+}
+The result will be 
+Happy New Year!!
+Happy New Year!!
+Happy New Year!!
+Happy New Year!!
+Happy New Year!!
+Hello India
+
+                                                                   For loop
+2.#include<stdio.h>
+int main(){
+int i=1;
+for(i=0;i<5;i++){
+Printf("%d\n",i);
+}
+return 0;
+}
+The result will be 
+0
+1
+2
+3
+4
+
+2.#include<stdio.h>
+int main(){
+int i=1;
+for(i=0;i>=5;i--){
+Printf("%d\n",i);
+}
+return 0;
+}
+The result will be
+5
+4
+3
+2
+1
+0
+
+2.#include<stdio.h>
+int main(){
+int i=1;
+for(i=0;i>=5;i++){
+Printf("%d\n",i);
+}
+return 0;
+}
+The result will be
+5
+6
+7
+8
+9
+10
+......indefinite
+
+
+#include <stdio.h>
+
+int main() {
+  int fact=1;
+  for(int i=1;i<=5;i++) {
+  fact=fact*i;
+  }
+   printf("%d\n", fact);
+}
+The result will be 120.
+
+#include <stdio.h>
+
+int main() {
+  int fact=1;
+  for(int i=1;i>5;i--) {
+  fact=fact*i;
+  }
+   printf("%d\n", fact);
+}
+The result will be 1.
+
+
+#include <stdio.h>
+
+int main() {
+  int fact=1;
+  for(int i=1;i>5;i++) {
+  fact=fact*i;
+  }
+   printf("%d\n", fact);
+  return 0;
+}
+The result will be 1.
+
+#include <stdio.h>
+
+int main() {
+  int num=21;
+    int mul;
+  for(int i=1;i<=10;i++) {
+  mul=num*i;
+  
+   printf("%d*%d=%d\n",num,i,mul);
+  
+}
+}
+21*1=21
+21*2=42
+21*3=63
+21*4=84
+21*5=105
+21*6=126
+21*7=147
+21*8=168
+21*9=189
+21*10=210
+
+
+#include <stdio.h>
+
+int main() {
+  int num=46;
+    int mul;
+  for(int i=1;i<=20;i++) {
+  mul=num*i;
+  
+   printf("%d*%d=%d\n",num,i,mul);
+  
+}
+}
+46*1=46
+46*2=92
+46*3=138
+46*4=184
+46*5=230
+46*6=276
+46*7=322
+46*8=368
+46*9=414
+46*10=460
+46*11=506
+46*12=552
+46*13=598
+46*14=644
+46*15=690
+46*16=736
+46*17=782
+46*18=828
+46*19=874
+46*20=920
+
+
+Ques1
+*
+**
+***
+****
+*****
+******
+Ans:<#include<stdio.h>
+int main(){
+for(int i=1;i<=6;i++){
+for(int j=1;j<=i;j++){
+printf("*");
+}
+printf("\n");
+}
+}
+Ques 2
+Ans:<#include<stdio.h>
+int main(){
+for(int i=1;i<=6;i++){
+for(int j=1;j<=i;j++){
+printf("%d",j);
+}
+printf("\n");
+}
+}
+The result will be
+1
+12
+123
+1234
+12345
+123456
+
+Inverse 
+Ques 3
+#include<stdio.h>
+int main(){
+for(int i=6;i>=1;i--){
+for(int j=1;j<=i;j++){
+printf("*");
+}
+printf("\n");
+}
+}
+The result will be
+******
+*****
+****
+***
+**
+*
+
+Ques4
+#include<stdio.h>
+int main(){
+for(int i=6;i>=1;i--){
+for(int j=1;j<=i;j++){
+printf("%d",j);
+}
+printf("\n");
+}
+}
+The result will be
+123456
+12345
+1234
+123
+12
+1
+
+                                                                 array
+
+#include<stdio.h>
+int main(){
+int num[]={4,6,9,8,9};
+printf("%d%d\n",num[0],num[1]);
+}
+The result will be 4 and 6.
+
+
+#include <stdio.h>
+int main() {
+int myNumbers[] = {25, 50, 75, 100,45};
+  int i;
+ for (i = 0; i < 5; i++) {
+  printf("%d\n", myNumbers[i]);
+  }
+  return 0;
+}
+The result will be 
+25
+50
+75
+100
+45
+
+#include <stdio.h>
+int main() {
+  int myNumbers[4];
+  myNumbers[0] = 25;
+  myNumbers[1] = 50;
+  myNumbers[2] = 75;
+  myNumbers[3] = 100;
+  printf("%d\n", myNumbers[1]);
+  return 0;
+}
+The result will be 50
+
+#include <stdio.h>
+
+int main() {
+  int matrix[3][3] = { {1, 4, 2}, {3, 6, 8},  {1, 4, 2}};
+
+  int i, j;
+  for (i = 0; i < 3; i++) {
+    for (j = 0; j < 3; j++) {
+      printf("%d\n", matrix[i][j]);
+    }
+  }
+  
+  return 0;
+}
+the result will be
+1
+4
+2
+3
+6
+8
+1
+4
+2
+                                                           string
+#include <stdio.h>
+
+int main() {
+  char greetings[] = "Hello World!";
+  greetings[0] = 'J';
+  printf("%s", greetings);
+
+  return 0;
+}
+the result will be Jello World!
+
+#include <stdio.h>
+int main() {
+  char txt[] = "We are the so-called \"Vikings\" from the north.";
+  printf("%s", txt);
+ 
+  return 0;
+}
+note:we remove slash found error.we use double quote in chracter must be uses slash.
+
+We are the so-called "Vikings" from the north.

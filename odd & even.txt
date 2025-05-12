@@ -1,0 +1,27 @@
+#include <stdio.h>
+int main() {
+  int num = 0;
+ printf("Enter your any number: ");
+ scanf("%d", &num);
+ if(num % 2 == 0){
+     printf("%d  Even Number : ", num);
+ }else{
+     printf("%d  Odd Number : ", num);
+ }
+}
+Enter your any number: 56981
+56981  Odd Number:
+
+#include <stdio.h>
+int main() {
+  int num = 0;
+ printf("Enter your any number: ");
+ scanf("%d", &num);
+ if(num % 2 == 0){
+     printf("%d  Even Number : ", num);
+ }else{
+     printf("%d  Odd Number : ", num);
+ }
+}
+Enter your any number: 654890
+654890  Even Number : 

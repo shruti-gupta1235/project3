@@ -1,0 +1,49 @@
+#include <stdio.h>
+
+int main() {
+    // Write C code here
+    int num;
+    int mul;
+    printf("Enter any number: ");
+    scanf("%d", &num);
+    for(int i = 1; i<=10; i++){
+        mul = num * i;
+        printf("%d \n",mul);
+}
+}
+Enter any number: 9
+9 
+18 
+27 
+36 
+45 
+54 
+63 
+72 
+81 
+90 
+
+#include <stdio.h>
+
+int main() {
+    // Write C code here
+    int num;
+    int mul;
+    printf("Enter any number: ");
+    scanf("%d", &num);
+    for(int i = 1; i<=10; i++){
+        mul = num * i;
+        printf("%d \n",mul);
+}
+}
+Enter any number: 89
+89 
+178 
+267 
+356 
+445 
+534 
+623 
+712 
+801 
+890 

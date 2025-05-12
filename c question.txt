@@ -1,0 +1,96 @@
+    1.what is c? Please describe basic syntax?
+Ans:C is programming language language.it is developed by Denis ritchie in 1972.c is more powereful than python and java.it has been used to develop operating system databases and applications.
+#include <stdio.h> it is a header file library that lets us work with input and output function.
+int main() 
+printf("Hello world") it is a function used to output /print text to the screen.in our example it will output "Hello world".
+
+2.why we learn c programming?
+Ans:Because it is more powerful than java and python.if you know c you will have no face problem learning other programmming language.c is versatile.it is very fast.
+
+3.what is input and output in c?
+Ans:In c, input refers to providing it with some information or data to be utilised in the program. on the other hand, output refers to writing the data and information on any printer file and displaying it on the screen.
+
+4.what are basic datatypes supported in the c programming language.
+Ans:There are four basic datatypes in c programming namely char,int,float and double.
+Int stores integers without decimals such as 123 or -123, it is debnoted by %d.
+float stores floating point number with decimal such as 19.99 or -19.99, it is denoted by %f.
+char stores single character.it is denoted by %c.
+double
+
+5.write a c program to enter two numbers and find their sum?
+ans:#include <stdio.h>
+int main(){
+int shoes=5;
+int shirt=7;
+int total items=shoes+shirt;
+printf("Total items in the cart: %d\n,total items);
+return 0;
+}
+Output will be:Total items in the cart:12.
+
+6.what is variable in c?
+Ans:variables are container for storing data values like number and character.
+ in c different types of variable  namely char,int,float and double.
+Int stores integers without decimals such as 123 or -123, it is debnoted by %d.
+float stores floating point number with decimal such as 19.99 or -19.99, it is denoted by %f.
+char stores single character.it is denoted by %c.
+double
+
+7.what is difference between while and do while?
+Ans:while:condition is checked first then statement is executed.
+Do while:statement is executed atleast once thereafter condition is checked.
+
+8.what is for loop?please give example?
+Ans:A for loop is used to repeat a specific block of code a known number of times.
+#include<stdio.h>
+int main(){
+for(int i=0;i<=5;i++){
+printf("%d\n"i);
+}
+}
+the output will be 0,1,2,3,4,5
+9.what is factorial in c?for ex:8
+Ans:factorial of a positive integer is the sum of multiplication of all the integers smaller than that positive integer.
+for example factorial of 8 is 8*7*6*5*4*3*2*1 that is equal to 40320.in coding we write:
+#include<stdio.h>
+int main(){
+int fact=1;
+for(int i=1;i<8;i++){
+fact=fact*i
+}
+printf("%d\n"fact);
+}
+the output will be 40320.
+10.how can be used pattern in c?for ex:
+*
+***
+***
+****
+*****
+*****
+Ans:
+
+12.Write a program for a table like 14?
+#include <stdio.h>
+
+int main() {
+  int num=14;
+    int mul;
+  for(int i=1;i<=10;i++) {
+  mul=num*i;
+  
+   printf("%d*%d=%d\n",num,i,mul);
+  
+}
+}
+the result will be
+14*1=14
+14*2=28
+14*3=42
+14*4=56
+14*5=70
+14*6=84
+14*7=98
+14*8=112
+14*9=126
+14*10=140

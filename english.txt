@@ -1,0 +1,409 @@
+Break-I break the chair.
+I don't broke the chair.
+Do I break the chair?
+Do I not break the chair?
+What do I break the chair?
+
+Buy-I buy a car.
+I don't buy a car.
+Do I buy a car?
+Do I not buy a car?
+What do buy a car?
+                                                While loop 
+
+#include <stdio.h>
+
+int main() {
+  int num;
+  int mul;
+  int i=1;
+  printf("Enter your any number");
+  scanf("%d",& num);
+  while ( i <= 10) {
+  mul=num*i;
+    printf("%d\n", mul);
+    i++;
+  }
+  
+ 
+}
+Enter any number: 9
+9 
+18 
+27 
+36 
+45 
+54 
+63 
+72 
+81 
+90 
+                               Do while loop
+#include <stdio.h>
+
+int main() {
+  int i=1;
+  int num;
+  int fact=1;
+   printf("Enter your any number ");
+  scanf("%d",&num);
+  do {
+    fact=fact*i; 
+ i++;
+  }
+  while (i <= num);
+   printf("%d",fact );
+}
+
+                                 switch
+#include <stdio.h>
+
+int main() {
+  int day = 4;
+  
+  switch (day) {
+    case 1:
+      printf("Monday");
+      break;
+    case 2:
+      printf("Tuesday");
+      break;
+    case 3:
+      printf("Wednesday");
+      break;
+    case 4:
+      printf("Thursday");
+      break;
+    case 5:
+      printf("Friday");
+      break;
+    case 6:
+      printf("Saturday");
+      break;
+    case 7:
+      printf("Sunday");
+      break;
+       default:
+    printf("Looking forward to the Weekend");
+  }
+    
+  return 0;
+}
+
+Thursday
+
+#include <stdio.h>
+
+int main() {
+  int day = 9;
+  
+  switch (day) {
+    case 1:
+      printf("Monday");
+      break;
+    case 2:
+      printf("Tuesday");
+      break;
+    case 3:
+      printf("Wednesday");
+      break;
+    case 4:
+      printf("Thursday");
+      break;
+    case 5:
+      printf("Friday");
+      break;
+    case 6:
+      printf("Saturday");
+      break;
+    case 7:
+      printf("Sunday");
+      break;
+       default:
+    printf("Looking forward to the Weekend");
+  }
+    
+  return 0;
+}
+Looking forward to the Weekend
+
+#include <stdio.h>
+
+int main() {
+  int i = 0;
+  
+  while (i < 10) {
+    if (i == 8) {
+      break;
+    }
+    printf("%d\n", i);
+    i++;
+  } 
+  
+  return 0;
+}
+
+0
+1
+2
+3
+4
+5
+6
+7
+
+#include <stdio.h>
+
+int main() {
+  int i = 0;
+  
+  while (i < 8) {
+    if (i == 4) {
+      i++;
+      continue;
+    }
+    printf("%d\n", i);
+    i++;
+  } 
+  
+  return 0;
+}
+
+0
+1
+2
+3
+5
+6
+7
+
+
+                                      present indefinite tense
+I eat a mango.
+I don't eat a mango.
+Do I eat a mango?
+Do I not eat a mango?
+What do  I eat a mango?
+
+       
+                                      present continuous tense
+She is reading a book.
+She isn't reading a book.
+Is She reading a book?
+Is She not reading a book?
+What Is she reading a book?
+
+                                        present perfect tense
+She has cow.
+She has not cow.
+Has She  cow?
+Has She not  cow?
+What Has she  cow?
+                                         present perfect continuous tense
+
+
+I have been reading book for two hours.
+I have  not been reading book for two hours.
+Have I been reading book for two hours?
+Have I been not reading book for two hours?
+what have I been reading book for two hours?
+
+                                               
+                                              past indefinite tense
+I went to Gaya.
+I did not went to Gaya.
+Did I went to Gaya?
+Did I  not went to Gaya?
+What did went to Gaya?
+ 
+                                            past continuous tense
+
+We were going to market.
+We were  not going to market.
+were we going to market?
+were we not going to market?                
+What were we going to market?
+
+                                              past perfect tense
+
+She had cow.
+She had not cow.
+Had She  cow?
+Had She not  cow?
+What Had she  cow?
+
+                                        past perfect continuous tense
+I had been waiting since two years.
+I had  not been waiting since two years.
+Had I been waiting since two years?
+Had I been not waiting since two years?
+what had I been waiting since two years?
+
+                                         future indefinite tense
+
+ sara will go to park by train.
+ sara will not go to park by train.
+ will  sara go to park by train?
+ will sara not go to park by train?
+ What will sara go to park by train?
+
+                                          future continuous tense
+ sara will be going to park by train.
+ sara will be not going to park by train.
+ will  sara be going to park by train?
+ will sara not be go to park by train?
+ What will be sara go to park by train?
+
+                                              future perfect tense
+ sara will  have gone to park by train.
+ sara will have not gone to park by train.
+ will  sara have gone to park by train?
+ will sara have not gone to park by train?
+ What will sara  have gone to park by train?
+
+
+                                                 
+                                        future perfect continuous tense
+
+ sara will  have been going to park by train  for three years.
+ sara will have not been going to park by train  for three years.
+ will  sara have  been going to park by train  for three years?
+ will sara have not been going to park by train  for three years?
+ What will sara  have been going to park by train  for three years?
+                                        
+
+
+
+
+#include<stdio.h> 
+int main()
+{
+ int a,b,c;
+ printf("Enter number 1: ");
+ scanf("%d",&a);
+ printf("Enter number 2: ");
+ scanf("%d",&b);
+ c=a+b;
+ printf("Addition is   : %d",c);
+ }
+
+Enter number 1: 5
+Enter number 2: 9
+Addition is   : 14
+
+#include<stdio.h>
+ 
+int main()
+{
+ int a,b,sum,Sub,mul,Div;
+ printf("Enter number 1: ");
+ scanf("%d",&a);
+ printf("Enter number 2: ");
+ scanf("%d",&b);
+ sum=a+b;
+ Subtract = a-b;
+  Multiply = a*b;
+  Div = a/b;
+ printf("Addition is : %d\n",sum);
+ printf("Subtract is:%d",subtract);
+ printf("Multiply is : %d\n",Multiply);
+ printf("Divison is : %d\n",Div);
+}
+
+#include<stdio.h> 
+int main()
+{
+ int a,b,c;
+ printf("Enter number 1: ");
+ scanf("%d",&a);
+ printf("Enter number 2: ");
+ scanf("%d",&b);
+ c=a-b;
+ printf("Subtract is   : %d",c);
+ }
+
+Enter number 1: 40
+Enter number 2: 3
+subtract is   : 37
+
+#include<stdio.h> 
+int main()
+{
+ int a,b,c;
+ printf("Enter number 1: ");
+ scanf("%d",&a);
+ printf("Enter number 2: ");
+ scanf("%d",&b);
+ c=a*b;
+ printf("Multiply is   : %d",c);
+ }
+
+Enter number 1: 4
+Enter number 2: 3
+Multiply is   : 12
+
+#include<stdio.h> 
+int main()
+{
+ int a,b,c;
+ printf("Enter number 1: ");
+ scanf("%d",&a);
+ printf("Enter number 2: ");
+ scanf("%d",&b);
+ c=a/b;
+ printf("Division is   : %d",c);
+ }
+
+Enter number 1: 4
+Enter number 2: 2
+Division is   : 2
+
+#include<stdio.h>  
+int main()
+{
+ float AREA,R;
+ printf("Enter Radius: ");
+ scanf("%f",&R);
+ AREA=3.14*R*R;
+ printf("Area of the given is : %6.2f",AREA);
+}
+Enter Radius: 9
+Area of the given is : 254.34
+
+
+#include<stdio.h>
+main()
+{
+ float AREA,B,H;
+ clrscr();
+ printf("Enter Base & Height: ");
+ scanf("%f%f",&B,&H);
+ AREA=0.5*B*H;
+ printf("Area of the given is : %6.2f",AREA);
+}
+
+
+#include<stdio.h> 
+main()
+{
+ int n, Square, Cube;
+ printf("Enter Number: ");
+ scanf("%d",&n);
+ Square=n*n;
+ Cube=n*n*n;
+ printf("\nSquare: %d\nCube: %d",Square,Cube);
+}
+Enter Number: 8
+
+Square: 64
+Cube: 512
+
+
+                                                                      Covid 19
+
+Corona virus is an infectious disease and is commonly called covid-19. it affects the human respiratory system causing difficulty in breathing.The virus was 
+first identified in 2019 in wuhan,china.In march,WHO declared covid 19 as a pandemic that has been affecting the world.The virus was spreading from an infected 
+person through coughing,sneezing,etc.Therefore, the affected people were isolated from everyone.covid 19 had significant role in our lives ,with lockdowmns,
+travel restrictions,and changes in daily routines.To prevent the spread of covid 19 we should wear masks,practice social distancing,and wash our hands frequently.
+People should follow social distancing,and other safety guidelines and also learn the tricks to be safe stay healthy. 
+ 

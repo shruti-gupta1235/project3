@@ -1,0 +1,62 @@
+1.=c
+2.=d
+3.=c
+4.=b
+5.=c
+6.=a
+7.=a
+8.=c
+9.=d
+10=a
+11=There are basically four data types in the c programming language.
+1.int=int stand for integer it is including without decimal.ex-123,-123.
+2.float=float includes floating point numbers with decimal.ex-24.67,-24.67.
+3.char=char stands for character it has single character.it will be written in single quote.
+4.double=double includes floating numbers upto fifteen digit after decimal.
+12.=input in c defines instruction and information which is given by the user such as we give instruction to computer find table of 10.so we put
+#include<stdio.h>
+int main(){
+int fact=1;
+for( int i=1;i<=5;i++){this is input give to computer
+fact=fact*i;
+}
+printf("%d\n"Mul);
+}
+output in c=the output will show in c with the help of printf.in the above question the output will be 120.
+13.=#include<stdio.h>
+int main(){
+int number=0;
+printf("Enter a number")
+scanf("%d & number")
+if (num%== 2,0){
+printf("is even number");
+}
+printf("is odd number")
+}
+when input is multiple of 2 the output will show even number and then not multiple of 2 then is odd number.
+
+
+
+14.=#include<stdio.h>
+int main(){
+int num;
+while(i<4)
+i++;
+break;
+}
+printf("%d\n"i)
+}
+the output will be 1,2,3
+
+#include<stdio.h>
+int main(){
+int num;
+while(i<4)
+i++;
+continue;
+}
+printf("%d\n"i)
+}
+the output will be 1,2,3,5,6,7,8,9
+
+ 

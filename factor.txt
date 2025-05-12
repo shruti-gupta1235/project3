@@ -1,0 +1,29 @@
+#include <stdio.h>
+
+int main() {
+   int num;
+   int fact = 1;
+   printf("Enter your any number : ");
+   scanf("%d", &num);
+   for(int i =1; i<=num; i++){
+       fact = fact * i;
+   }
+   printf("%d", fact);
+}
+Enter your any number:5
+120
+
+#include <stdio.h>
+int main(){
+    int num;
+    int fact=1;
+    printf("Enter your any number:");
+    scanf("%d",&num);
+    for(int i=1;i<=num;i++){
+        fact=fact*i;
+        
+    }
+      printf("%d",fact);
+    }
+    Enter your any number:25
+2076180480
